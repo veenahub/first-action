@@ -1,9 +1,5 @@
 name:first-action
-on:
-  push:
-    branches: [main]
-  pullrequest:
-    branches: [main]
+on: [push]
 jobs:
   ubuntu:
     runs-on: ubuntu-latest
